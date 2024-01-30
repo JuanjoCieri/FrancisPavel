@@ -8,19 +8,13 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import {
-  FacebookIcon,
-  InstagramIcon,
-  LinkedinIcon,
   MailIcon,
   PinIcon,
-  TiktokIcon,
-  TwitterIcon,
 } from "@/utils/Icons";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Español from "../../../assets/Banderas/banderaespaña.png";
 import Ingles from "../../../assets/Banderas/banderareino.png";
-import Logo from "../../../assets/Logo/logo.png";
 
 export default function NavBar() {
   const { t, i18n } = useTranslation();

@@ -1,12 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/Logo/logo.png";
 import {
   FacebookIcon,
   InstagramIcon,
   LinkedinIcon,
-  TiktokIcon,
-  TwitterIcon,
 } from "@/utils/Icons";
 
 export default function Footer() {
